@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.main-container{
+    background-color: rgba(255, 255, 255, 0.99);
+    margin: auto;
+    position: relative;
+    top: 8rem;
+    width: 40rem;
+    min-height: 30rem;
+    border-radius: 0.8rem;
+    border-bottom-right-radius: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h6{
+    color: red;
+}
+input{
+    height: 3rem;
+    width: 7rem;
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding-left: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+input:hover{
+    cursor: pointer;
+}
+.cont{
+    padding: 1rem 2rem;
+    
+}
+hr{
+    width: 72%;
+    position: relative;
+    left: -4.3rem;
+    top: -2.8rem;
+}
+p{
+    font-family: cursive;
+}
+.input{
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    position: relative;
+    min-height: 3rem;
+    width: 100%;
+    display: flex;
+}
+button{
+    z-index: 2;
+    position: relative;
+    width: 4rem;
+    aspect-ratio: 1/1;
+    background-color: #6643b5;
+    border-radius: 50%;
+    border: none;
+    margin: 1rem 0rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 12rem;
+    transition: 1s;
+    
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #8594e4;
+    cursor: pointer;
+    color: red;
+}
+span{
+    color: #6643b5;
+}
+.gg-arrow-down {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+   }
+   
+   .gg-arrow-down::after,
+   .gg-arrow-down::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 4px
+   }
+   
+   .gg-arrow-down::after {
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(-45deg);
+    left: 7px
+   }
+   
+   .gg-arrow-down::before {
+    width: 2px;
+    height: 16px;
+    left: 10px;
+    background: currentColor
+   } 
+
+.text{
+    position: relative;
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    position: relative;
+    left: -10rem;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
